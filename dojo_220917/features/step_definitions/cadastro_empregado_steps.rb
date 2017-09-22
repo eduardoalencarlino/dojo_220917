@@ -21,9 +21,9 @@ end
 Quando(/^preencho os campos obrigatórios$/) do
     fill_in('firstName', :with => 'Eduardo')
     fill_in('lastName', :with => 'Silva')
-    fill_in('employeeId', :with => '1112')
+    fill_in('employeeId', :with => '1113')
     check('chkLogin')
-    fill_in('user_name', :with => 'edu_alencar5')
+    fill_in('user_name', :with => 'edu_alencar6')
     fill_in('user_password', :with => 'secret')
     fill_in('re_password', :with => 'secret')
     select('Enable', :from => 'status')

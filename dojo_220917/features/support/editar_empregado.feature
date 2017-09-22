@@ -1,6 +1,5 @@
 #language: pt
 #utf-8
-@doing
 Funcionalidade: Editar empregado 
     Eu como administrador 
     Quero editar um empregado já existente na base de dados

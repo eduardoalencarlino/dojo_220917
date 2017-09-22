@@ -1,9 +1,9 @@
 Quando(/^busco o empregado desejado acessando os Menus PIM\/Employee List$/) do
     find(:xpath,'//*[@id="menu_pim_viewPimModule"]/b').click
     find(:xpath,'//*[@id="menu_pim_viewEmployeeList"]').click
-    fill_in('empsearch[id]', :with => '1112')
+    fill_in('empsearch[id]', :with => '1113')
     click_button('searchBtn')
-    click_link('1112')
+    click_link('1113')
 end
 
 Quando(/^clico no botão Edit$/) do
